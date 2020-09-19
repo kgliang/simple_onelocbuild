@@ -1,0 +1,126 @@
+//
+// Copyright (c) Microsoft Corporation.  All rights reserved.
+//
+
+// Tab labels
+"AboutTab" = "About";
+"ConnectTab" = "Connect";
+"HelpTab" = "Help";
+
+// Common strings
+"Yes" = "Yes";
+"No" = "No";
+"Bytes" = "Bytes";
+"KB" = "KB";    // Short for kilobytes
+"MB" = "MB";    // Short for megabytes
+"GB" = "GB";    // Short for gigabytes
+
+// Connection tab strings
+"Connection" = "Connection";
+"ConnectionConnectOnDemand" = "Connect on demand";
+"ConnectionDataReceived" = "Data received";
+"ConnectionDataSent" = "Data sent";
+"ConnectionDetails" = "Details";
+"ConnectionStatus" = "Status";
+"ConnectionUptime" = "Uptime";
+
+// Connection status
+"ConnectionInvalidProfileStatus" = "Invalid profile";
+"ConnectionNotConnectedStatus" = "Not connected";
+"ConnectionConnectingStatus" = "Connecting...";
+"ConnectionDisconnectingStatus" = "Disconnecting...";
+"ConnectionConnectedStatus" = "Connected";
+
+// Help tab strings
+"Documentation" = "Dcoumentation";
+"FailureMessage" = "We couldn't upload issue details right now. Let's try one more time.";
+"GatherAndUpload" = "We're gathering issue details and uploading them to Microsoft.";
+"GetStarted" = "Start log collection";
+"IncidentId" = "Incident ID";
+"Resend" = "Restart log collection";
+"Sending" = "Sending";
+"SendInEmail" = "Send in email";
+"SendLogs" = "Capture and send logs";
+"SuccessMessage" = "Uploaded to Microsoft. You can also email issue details to your organization's support.";
+
+// Details page
+"DetailsConnectionInfo" = "Connection info";
+"DetailsName" = "Name";
+"DetailsStatus" = "Status";
+"DetailsAddress" = "Address";
+"DetailsRulesAndRestrictions" = "Rules and restrictions";
+"DetailsDeviceWideConnection" = "Device-wide connection";
+"DetailsAppsThatUseTunnel" = "Apps that use Tunnel";
+"DetailsOnDemandRules" = "On-demand rules";
+
+// On-demand rules
+"ConnectDNSDomains" = "Using these DNS domains";
+"ConnectNetworksSSIDs" = "Connecting to networks with these SSIDs";
+"ConnectRuleTitle" = "Use Tunnel when:";
+"DisconnectRuleTitle" = "Don't use Tunnel when:";
+"EvaluateRuleNeverUseTunnel" = "Never use Tunnel when trying to access";
+"EvaluateRuleTitle" = "Evaluate each connection attempt:";
+"EvaluateRuleUseAccessing" = "Use Tunnel when trying to access";
+"EvaluateRuleUseDNSServers" = "Use Tunnel when using these DNS servers";
+"EvaluateRuleUseWhenUnreachable" = "Use Tunnel when this URL is unreachable";
+"IgnoreRuleTitle" = "Ignore Tunnel when:";
+"SafariRuleAccess" = "Safari tries to access";
+"URLProbeSucceeds" = "But only if this URL probe succeeds";
+"UsingAllDomains" = "Using all domains";
+
+//About Page
+"PrivacyPolicy" = "Privacy policy";
+"ThirdPartyNotices" = "Third-party notices";
+"TOU" = "Terms of use";
+"Version" = "Version";
+
+// Welcome Page
+"GetStartedBtn" = "Get Started";
+"WelcomeDescription" = "Tunnel creates a secure connection to your corporate network from wherever you are.";
+"WelcomeHeader" = "Get secure access to work resources";
+
+// Notification titles
+"TunnelConnectionFailedTitle" = "Tunnel connection failed";
+"TunnelConnectionLostTitle" = "Tunnel connection lost";
+
+// Notification bodies
+"AuthenticationFailedBody" = "Tunnel can't connect. Please sign-in again.";
+"AuthorizationFailedBody" = "Tunnel can't connect. Tap for details.";
+"BadServerResponseBody" = "Tunnel can't connect. Tap for details.";
+"ConnectionDroppedBody" = "Tunnel connection dropped. Please try manually connecting.";
+"NoNetworkBody" = "Tunnel can't connect: no internet.";
+"TerminatedConnectionBody" = "Tunnel server terminated connection. Please try manually connecting.";
+"TimedOutBody" = "Tunnel can't connect. Please try manually connecting.";
+"UnexpectedErrorBody" = "Tunnel can’t connect. Please try manually connecting.";
+"UnreachableBody" = "Tunnel can't connect. Please try manually connecting.";
+
+// Notification actions
+"ConnectAction" = "Connect";
+"ReconnectAction" = "Reconnect";
+
+// Notification Page
+"NotificationAuthenticationFailed" = "Authentication failed. If this continues, contact your IT administrator for support.";
+"NotificationAuthorizationFailed" = "Tunnel was not configured correctly for your account by your organization. Contact your IT administrator for support.";
+"NotificationCantConnect" = "Tunnel can't connect";
+"NotificationConnectionDropped" = "Tunnel connection dropped. Please try manually connecting.";
+"NotificationConnectionLost" = "Tunnel connection lost";
+"NotificationGetHelp" = "Get help";
+"NotificationNoNetwork" = "No internet connection.";
+"NotificationNoProfile" = "Tunnel is not enabled for you or your device. Contact your IT administrator for support.";
+"NotificationServerMalformedResponse" = "Unexpected server behavior. Contact your IT administrator for support.";
+"NotificationServerTerminatedConnection" = "Tunnel server terminated connection. Please try manually connecting.";
+"NotificationServerUnreachable" = "Server can’t be reached. Contact your IT administrator for support or try connecting later.";
+"NotificationTimedOut" = "Tunnel connection timed out. Contact your IT administrator for support or try connecting later.";
+"NotificationUnexpectedError" = "Tunnel can’t connect.  Contact your IT administrator for support or try connecting later.";
+
+// Banner notifications
+"NotificationNoNetworkBanner" = "No internet connection";
+
+// Sign-in page
+"SignIn" = "Sign in";
+
+// User notification prompt
+"EnableNotifications" = "Enable notifications";
+"NotificationsDescription" = "Tunnel will use notifications to alert you when there's an issue with your connection. Disabling them might delay troubleshooting.";
+"TurnOnNotifications" = "Turn on";
+"NotNow" = "Not now";
