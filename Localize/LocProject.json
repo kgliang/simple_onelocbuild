@@ -5,6 +5,8 @@
          "LocItems": [
           {
             "SourceFile": "src\\iOS\\iOSstrings.strings",
+            "CopyOption": "LangIDOnName",
+            "OutputPath": "src\\iOS",
             "Parser": "17"
           }
         ]
