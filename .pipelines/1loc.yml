@@ -14,6 +14,7 @@ stages:
                       SYSTEM_ACCESSTOKEN: $(System.AccessToken)
                   displayName: "Localization Build: src/loc/LocProject.json"
                   inputs:
+                      locProj: src/loc/LocProject.json
                       packageSourceAuth: patAuth
                       patVariable: "$(OneLocBuildPAT)"
 
